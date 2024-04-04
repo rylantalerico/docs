@@ -10,6 +10,10 @@
     "primary": "#5260FF",
     "light": "#7580FF",
     "dark": "#424DCC",
+    "background": {
+      "light": "#F4F4F5",
+      "dark": "#18181B"
+    },
     "anchors": {
       "from": "#7580FF",
       "to": "#5260FF"
@@ -18,11 +22,11 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:support@crate.fm"
+      "url": "https://crate.fm/contact-us"
     }
   ],
   "topbarCtaButton": {
-    "name": "Your Crate",
+    "name": "Go to Crate",
     "url": "https://app.crate.fm"
   },
   "tabs": [],
@@ -30,12 +34,12 @@
     {
       "name": "Documentation",
       "icon": "book-open-cover",
-      "url": "https://support.crate.fm/"
+      "url": "https://docs.crate.fm/"
     },
     {
       "name": "Contact us",
       "icon": "bell-concierge",
-      "url": "mailto:support@crate.fm"
+      "url": "https://crate.fm/contact-us"
     },
     {
       "name": "Blog",
@@ -46,7 +50,7 @@
   "navigation": [
     {
       "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
+      "pages": ["introduction", "quickstart"]
     },
     {
       "group": "Essentials",
@@ -57,18 +61,6 @@
         "essentials/settings",
         "essentials/navigation",
         "essentials/reusable-snippets"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": ["api-reference/introduction"]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
       ]
     }
   ],
